@@ -17,7 +17,7 @@ export default class App extends Component {
     });
   }
 
-
+  
     render = () => (
       <div className="container">
           <div className="col-12">
