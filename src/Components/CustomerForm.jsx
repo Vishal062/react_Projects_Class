@@ -10,7 +10,10 @@ const [customer, setCustomer] = useState({
 	pin: 0,
 	birthdate: "",
 });
+
 //There is error in something for date only 
+//Rest every feild is validate successfully>>>
+
 const [errors, setErrors] = useState({});
 const schema = {
 	firstName: Joi.string().min(1).max(20).required(),
