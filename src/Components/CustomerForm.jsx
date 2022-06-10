@@ -10,7 +10,7 @@ const [customer, setCustomer] = useState({
 	pin: 0,
 	birthdate: "",
 });
-
+//There is error in something for date only 
 const [errors, setErrors] = useState({});
 const schema = {
 	firstName: Joi.string().min(1).max(20).required(),
